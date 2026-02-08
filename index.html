@@ -7,9 +7,23 @@
     <title>Camera + Gallery</title>
 </head>
 <body>
+    <!-- This is to stream a video from browser api -->
     <div class="video-window">
-        <video  controls  autoplay   src=""></video>
+        <video    autoplay   src=""></video>
     </div>
-    <script src="./index.js"></script>
+    <!-- To add the recording and capture option -->
+
+    <div class="record-actions">
+        <div class="rec-btn">
+            <div class="rec-area"></div>
+        </div>
+        <div class="capture-btn">
+            <div class="capture-area"></div>
+        </div>
+    </div>
+    <div class="timer">
+        <h1 class="showtimer"></h1>
+    </div>
+    <script src="./index.js" defer></script>
 </body>
 </html>
